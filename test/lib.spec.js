@@ -11,7 +11,7 @@ try {
 var ntcc = new NTCC();
 var ntcc2 = new NTCC();
 
-var TestClient = function testClient() {
+var TestClient = function() {
 	this.id = "A Testing Client";
 	return this;
 };
