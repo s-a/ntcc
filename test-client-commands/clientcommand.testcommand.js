@@ -1,7 +1,7 @@
 "use strict"
 
 
-var Cmd = function Cmd() {
+var Cmd = function() {
 	return this;
 };
 
