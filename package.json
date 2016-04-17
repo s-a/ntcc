@@ -1,6 +1,6 @@
 {
   "name": "ntcc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "directories": {
@@ -31,7 +31,14 @@
     "type": "git",
     "url": "git+https://github.com/s-a/ntcc.git"
   },
-  "keywords": ["commandline", "terminal", "namespace", "command", "shell", "shell-helper"],
+  "keywords": [
+    "commandline",
+    "terminal",
+    "namespace",
+    "command",
+    "shell",
+    "shell-helper"
+  ],
   "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
   "license": "MIT",
   "bugs": {
