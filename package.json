@@ -31,7 +31,7 @@
     "type": "git",
     "url": "git+https://github.com/s-a/ntcc.git"
   },
-  "keywords": [],
+  "keywords": ["commandline", "terminal", "namespace", "command", "shell", "shell-helper"],
   "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
   "license": "MIT",
   "bugs": {
