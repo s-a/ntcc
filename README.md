@@ -76,4 +76,15 @@ it("should execute testcommand.open-with-arguments to pass custom arguments", fu
 ```
 
 
-For more example see [the test-client-commands](/test-client-commands) and [tests](tests).
+For more examples see [the test-client-commands](/test-client-commands) and [the tests](test).
+
+## A more realistic usecase
+
+```javascript
+testClient.__.execute(["db", "connection", "open"], ["connection-1"]);
+testClient.__.execute(["db", "connection", "close"], ["connection-1"]);
+testClient.__.execute(["db", "connection", "new"]);
+testClient.__.execute(["db", "connection", "remove"], ["connection-1"]);
+```
+
+I prefer to use this module in association with [minimist](https://github.com/substack/minimist).
