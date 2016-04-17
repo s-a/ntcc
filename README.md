@@ -80,11 +80,20 @@ For more examples see [the test-client-commands](/test-client-commands) and [the
 
 ## A more realistic usecase
 
+Human readable:
 ```javascript
 testClient.__.execute(["open", 		"db", "connection"], ["connection-1"]);
 testClient.__.execute(["close", 	"db", "connection"], ["connection-1"]);
 testClient.__.execute(["new", 		"db", "connection"]);
 testClient.__.execute(["remove", 	"db", "connection"], ["connection-1"]);
+```
+
+Or straight namespaced:
+```javascript
+testClient.__.execute(["connection", "db", "open"], ["connection-1"]);
+testClient.__.execute(["connection", "db", "close"], ["connection-1"]);
+testClient.__.execute(["connection", "db", "new"]);
+testClient.__.execute(["connection", "db", "remove"], ["connection-1"]);
 ```
 
 I prefer to use this module in association with [minimist](https://github.com/substack/minimist).
