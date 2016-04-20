@@ -11,6 +11,7 @@
     "minimist": "^1.2.0"
   },
   "devDependencies": {
+    "coveralls": "^2.11.9",
     "docco": "^0.7.0",
     "jscoverage": "^0.6.0",
     "mocha": "^2.4.5",
