@@ -16,6 +16,7 @@
     "jscoverage": "^0.6.0",
     "mocha": "^2.4.5",
     "mocha-jshint": "^2.3.1",
+    "mocha-lcov-reporter": "^1.2.0",
     "should": "^8.3.0"
   },
   "scripts": {
